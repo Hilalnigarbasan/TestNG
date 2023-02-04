@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="497e20c9-d44a-4489-8602-28b669fbefc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/OpenSourceDashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/OpenSourcePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TechproHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TechproLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_OpenSourceLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day22_PositiveLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/mysmoketestdata.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day23_ExcelLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day19_TestNGAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day19_TestNGAnnotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_DependsOnMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_DependsOnMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_Driver_Config_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_Driver_Config_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_SoftAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_SoftAssertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +42,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.Day20_DependsOnMethods.homeTest">
     <configuration name="Day19_TestNGAnnotations (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
