@@ -15,12 +15,12 @@ public class Day24_DataProviderTest3 {
     //EXCEL DATALARI -> DATA PROVIDER -> TEST METOTLARI
     //    DATA PRIVIDER METOTU
     @DataProvider
-    public Object[][] customerData(){
+    public Object[][] customerData() {
 //        DataProviderTest2 ile bu metot arasindaki tek fark bu metotda datalar Excelden gelir.
 //        Bu kullanim daha guzeldir
-        String path="./src/test/java/resources/mysmoketestdata.xlsx";
+        String path = "./src/test/java/resources/mysmoketestdata.xlsx";
         String sheetName = "customer_info";
-        ExcelUtils excelUtils = new ExcelUtils(path,sheetName);
+        ExcelUtils excelUtils = new ExcelUtils(path, sheetName);
         Object[][] musteriBilgileri = excelUtils.getDataArrayWithoutFirstRow();
         return musteriBilgileri;
     }
@@ -34,7 +34,7 @@ public class Day24_DataProviderTest3 {
     public void dataProviderLoginTest(String email, String sifre) throws IOException {
         //        Sayfaya git
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));//HOME SAYFASINA
-        blueRentalHomePage= new BlueRentalHomePage();
+        blueRentalHomePage = new BlueRentalHomePage();
         blueRentalLoginPage = new BlueRentalLoginPage();
         blueRentalHomePage.loginLink.click();
         ReusableMethods.waitFor(1);// 1 saniye bekle
