@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="497e20c9-d44a-4489-8602-28b669fbefc9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listeners2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/listeners2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day22_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day22_PositiveLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,43 +45,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day27_ListenersTest1">
-    <configuration name="Day24_DataProviderTest1.aramaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day24_DataProviderTest1" />
-      <option name="METHOD_NAME" value="aramaTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day24_DataProviderTest1.googleAramasi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day24_DataProviderTest1" />
-      <option name="METHOD_NAME" value="googleAramasi" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.techproed.tests.dataprovider">
     <configuration name="Day27_ListenersTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
       <extension name="coverage">
@@ -125,13 +91,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/macmac/IdeaProjects/B103TestNGProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+        <listener class="org.testng.reporters.SuiteHTMLReporter" />
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="techproed.tests.dataprovider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.dataprovider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.techproed.tests.dataprovider" />
+      <item itemvalue="TestNG./Users/macmac/IdeaProjects/B103TestNGProject/smoketest.xml" />
+      <item itemvalue="TestNG./Users/macmac/IdeaProjects/B103TestNGProject/testng.xml" />
+      <item itemvalue="TestNG.Day27_ListenersTest1" />
+      <item itemvalue="TestNG.Day27_ListenersTest1.test2" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.techproed.tests.dataprovider" />
+        <item itemvalue="TestNG./Users/macmac/IdeaProjects/B103TestNGProject/testng.xml" />
         <item itemvalue="TestNG.Day27_ListenersTest1" />
         <item itemvalue="TestNG.Day27_ListenersTest1.test2" />
         <item itemvalue="TestNG./Users/macmac/IdeaProjects/B103TestNGProject/smoketest.xml" />
-        <item itemvalue="TestNG.Day24_DataProviderTest1.googleAramasi" />
-        <item itemvalue="TestNG.Day24_DataProviderTest1.aramaTesti" />
       </list>
     </recent_temporary>
   </component>
